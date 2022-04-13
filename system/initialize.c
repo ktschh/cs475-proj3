@@ -186,6 +186,7 @@ static	void	sysinit(void)
 	/* Initialize the PCI bus */
 
 	pci_init();
+	clkinit();
 
 	for (i = 0; i < NDEVS; i++) {
 		if (! isbaddev(i)) {
