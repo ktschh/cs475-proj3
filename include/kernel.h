@@ -26,7 +26,7 @@ typedef	byte	bool8;		/* Boolean type				*/
 typedef	uint16	intmask;	/* saved interrupt mask			*/
 typedef	int32	ibid32;		/* index block ID (used in file system)	*/
 typedef	int32	dbid32;		/* data block ID (used in file system)	*/
-typedef uint32 mutex_t;		/* mutex */
+typedef uint32 	mutex_t;		/* mutex */
 
 /* Function declaration return types */
 
